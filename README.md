@@ -26,7 +26,7 @@ Run number is in the file name.
 ```
 
 ### 'is\_separated'
-1 means the XTCAV data had two peaks. 0 means there was only one primary peak found. -1 means something funky goin on (no maxima, or missing event data)
+1 means the XTCAV data has two peaks. 0 means there is only one primary peak found. -1 means something funky goin on (no maxima, or missing event data)
 
 ### 'ebeam'
 event X-ray energy estimate provided by LCLS
@@ -87,7 +87,7 @@ moving average of the power trace
 
 
 ## Notes
-if only 1 peak was found in the events xtcav trace, its information (peak height and arrival time) will be in the ```first_pulse*``` dataset, while ```second_pulse*``` dataset will have -1 values for that event.
+if the algorithm only found 1 peak in the events xtcav trace, it's information (peak height and arrival time) will be in the ```first_pulse*``` dataset, while ```second_pulse*``` dataset will have -1 values for that event.
 
 You can start by fitting Gaussians to the curves: ```X=pulse_t, Y=power_trace```
 
