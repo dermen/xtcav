@@ -89,5 +89,5 @@ moving average of the power trace
 ## Notes
 if only 1 peak was found in the events xtcav trace, its information (peak height and arrival time) will be in the ```first_pulse*``` dataset, while ```second_pulse*``` dataset will have -1 values for that event.
 
-You can start by fitting Gaussians to the curves in ```X=pulse_t, Y=power_trace```
+You can start by fitting Gaussians to the curves: ```X=pulse_t, Y=power_trace```
 
