@@ -106,7 +106,7 @@ if Npts is not None:
                 first_pulse_max_position = -1#np.nan
                 second_pulse_max_position = -1#np.nan
                 is_separated = -1#np.nan
-                print "No max found baby %d"%i_ev
+                print "No max found %d"%i_ev
             elif len( maxpos) == 1:
                 first_pulse_power =  smooth_power[maxpos[0]]
                 second_pulse_power = -1# np.nan
@@ -116,7 +116,7 @@ if Npts is not None:
                 first_pulse_max_position =  maxpos[0]
                 second_pulse_max_position = -1#np.nan
                 is_separated =  0 #False
-                print "I see one peak in the power spectrum babe; %d"%i_ev
+                print "I see one peak in the power spectrum; %d"%i_ev
             else:
                 k_for_max.fit( maxpos[:,None] )
                 maxpos1 = maxpos[k_for_max.labels_==0]
