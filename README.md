@@ -44,8 +44,6 @@ In [5]: et = f["event_time"][0]
 
 In [8]: fid = f['fiducials'][0]
 
-In [9]: et = f["event_time"][0]
-
 In [11]: psana_et =psana.EventTime(et, fid)
 
 In [12]: psana_et.nanoseconds()
