@@ -31,7 +31,7 @@ Run number is in the file name.
 ### 'ebeam'
 event X-ray energy estimate provided by LCLS
 ### 'event_time'
-time of the XTC event, provided by LCLS. If you want to use this value to sync up to other runs (with e.g. seconds and nanoseconds) , you can do something like  
+time of the XTC event, provided by LCLS. If you want to use this value to sync up to other data (e.g. Cheetah hits with  seconds and nanoseconds or CrystFEL crystals) , you can do something like  
 
 ```
 In [2]: import h5py
